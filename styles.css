@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+.bg-primary.text-white.p-2.rounded-full.mr-4 {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
