@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go Inc - Content Creator Commerce Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add particles.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav id="navbar" class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center text-2xl font-bold text-secondary">
+                        <img src="assets/logo.png" alt="Logo" class="h-14 mr-3">
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-800" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-800 hover:text-primary transition">Home</a>
+                    <a href="#about" class="text-gray-800 hover:text-primary transition">About</a>
+                    <a href="#services" class="text-gray-800 hover:text-primary transition">Services</a>
+                    <a href="#team" class="text-gray-800 hover:text-primary transition">Team</a>
+                    <a href="#achievements" class="text-gray-800 hover:text-primary transition">Achievements</a>
+                    <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-full hover:bg-yellow-500 transition">Contact Us</a>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden">
+                <div class="flex flex-col space-y-4 mt-4">
+                    <a href="#home" class="block text-gray-800 hover:text-primary">Home</a>
+                    <a href="#about" class="block text-gray-800 hover:text-primary">About</a>
+                    <a href="#services" class="block text-gray-800 hover:text-primary">Services</a>
+                    <a href="#team" class="block text-gray-800 hover:text-primary">Team</a>
+                    <a href="#achievements" class="block text-gray-800 hover:text-primary">Achievements</a>
+                    <a href="#contact" class="block bg-primary text-white px-4 py-2 rounded-full text-center">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section id="home" class="hero-gradient pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden">
+        <div class="video-background">
+<iframe src="https://www.youtube.com/embed/sOykup3lkv0?autoplay=1&mute=1&loop=1&playlist=sOykup3lkv0&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&disablekb=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-8rem)] relative z-10">
+            <div class="md:w-1/2 flex flex-col items-center text-white mb-10 md:mb-0">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-center">
+    Innovating <br>
+    <span class="text-primary whitespace-nowrap">Content - Creator - Commerce</span>
+</h1>
+                <p class="text-lg md:text-xl mb-8 text-center">
+                    Transforming brands through dynamic content creation, livestream commerce, and creator partnerships.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center">
+                    <a href="#contact" class="bg-white text-secondary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 text-center">
+                        Get Started
+                    </a>
+                    <a href="#services" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-secondary transition duration-300 text-center">
+                        Our Services
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 scroll-indicator">
+            <a href="#about" class="text-white animate-bounce">
+                <i class="fas fa-chevron-down text-2xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="stats-item bg-white p-6 rounded-xl shadow-lg border-t-4 border-primary text-center">
+                    <h3 class="text-4xl font-bold text-secondary mb-2">15+</h3>
+                    <p class="text-gray-600">Years Experience</p>
+                </div>
+                <div class="stats-item bg-white p-6 rounded-xl shadow-lg border-t-4 border-accent text-center">
+                    <h3 class="text-4xl font-bold text-secondary mb-2">87K+</h3>
+                    <p class="text-gray-600">Livestream Hours</p>
+                </div>
+                <div class="stats-item bg-white p-6 rounded-xl shadow-lg border-t-4 border-primary text-center">
+                    <h3 class="text-4xl font-bold text-secondary mb-2">2</h3>
+                    <p class="text-gray-600">Prestigious Awards</p>
+                </div>
+                <div class="stats-item bg-white p-6 rounded-xl shadow-lg border-t-4 border-accent text-center">
+                    <h3 class="text-4xl font-bold text-secondary mb-2">100+</h3>
+                    <p class="text-gray-600">Global Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-6">
+                        About <span class="text-primary">Let's Go Inc</span>
+                    </h2>
+                    <p class="text-gray-700 mb-6">
+                        Let's Go Inc is a dynamic agency specializing in Content - Creator - Commerce innovation. We've delivered sustainable services for large multinational companies and won two prestigious awards in 2024.
+                    </p>
+                    <p class="text-gray-700 mb-6">
+                        With 15+ years of experience and a proven track record, Let's Go Inc is committed to delivering effective and relevant content and livestream solutions that drive real business results.
+                    </p>
+                    <div class="bg-primary bg-opacity-10 p-6 rounded-lg border-l-4 border-primary">
+                        <p class="text-gray-700 italic">
+                            "Our mission is to bridge the gap between content creators and brands through innovation and technology, creating real impact for client business growth."
+                        </p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <img src="assets/live-shopping.png" alt="Our Team" class="rounded-lg shadow-xl w-full">
+                    <div class="absolute -bottom-5 -right-5 bg-secondary w-32 h-32 rounded-lg z-0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="py-20 bg-secondary text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Vision & Mission</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary p-3 rounded-full mr-4">
+                            <i class="fas fa-bullseye text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Vision</h3>
+                    </div>
+                    <p class="text-gray-300">
+                        To be the pioneering agency that effectively connects content creators with brands through innovation and technology, creating real impact for client business growth and building sustainable creator communities.
+                    </p>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary p-3 rounded-full mr-4">
+                            <i class="fas fa-tasks text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Mission</h3>
+                    </div>
+                    <p class="text-gray-300">
+                        We commit to delivering cutting-edge content solutions, fostering meaningful creator-brand relationships, leveraging data-driven strategies, and continuously innovating our service offerings to stay ahead in the dynamic digital landscape.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Services and Solutions</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md hover:border-primary border-l-4 border-transparent">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-film text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Creator & Content IP</h3>
+                    <p class="text-gray-600 mb-4">
+                        Focus on awareness and consideration with content IP approach to generate massive organic attention and increase brand relevancy, especially through TikTok.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Organic attention generation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Brand relevancy enhancement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Platform-specific strategies</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md hover:border-primary border-l-4 border-transparent">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-video text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Livestream & Short Video</h3>
+                    <p class="text-gray-600 mb-4">
+                        Managing tens of thousands of livestream hours for renowned brands like Unilever, L'Oreal, Kimberly Clark, PZ Cusson, and Samsung.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Official store management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Engaging short-form content</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Performance analytics</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md hover:border-primary border-l-4 border-transparent">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Affiliate Community Building</h3>
+                    <p class="text-gray-600 mb-4">
+                        Specializing in building affiliate communities for multinational companies including Pond's, Vaseline, Tresemme, Clear, and Dove.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Creator recruitment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Community management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Performance tracking</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md hover:border-primary border-l-4 border-transparent">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-microchip text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-secondary mb-3">Supporting Technology</h3>
+                    <p class="text-gray-600 mb-4">
+                        Utilizing latest technology like Kalodata for competitor monitoring and Stickler for operations to simplify processes and amplify impact.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Competitor intelligence</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Operational automation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-primary mr-2 mt-1"></i>
+                            <span>Performance optimization</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Advantages -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Our Competitive Advantages</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white p-2 rounded-full mr-4">
+                            <i class="fas fa-handshake text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary">Personal Creator Relationships</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        We maintain personal relationships with each main creator to ensure optimal performance without additional excessive costs.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white p-2 rounded-full mr-4">
+                            <i class="fas fa-cogs text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary">Automated Systems</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        Our automation platform handles contracts, taxes, and payments for thousands of creators every month with precision and efficiency.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white p-2 rounded-full mr-4">
+                            <i class="fas fa-users-cog text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary">Affiliate Retainer Models</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        We offer retainer models for affiliate communities with commission-based remuneration systems and product seeding.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white p-2 rounded-full mr-4">
+                            <i class="fas fa-tools text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary">Advanced Facilities</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        State-of-the-art facilities and technology support work quality and effectiveness with dedicated production spaces.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white p-2 rounded-full mr-4">
+                            <i class="fas fa-database text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary">Data-Driven Strategies</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        Our decisions are backed by comprehensive data analysis and competitor monitoring for maximum impact.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border-l-4 border-primary">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary text-white p-2 rounded-full mr-4">
+                            <i class="fas fa-award text-lg"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-secondary">Proven Track Record</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        With prestigious awards and 15+ years of experience, we deliver results for global brands consistently.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Management Team -->
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Our Management Team</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1 -->
+                <div class="team-card bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="overflow-hidden h-64">
+                        <img src="assets/hanif.png" alt="Hanif Thamrin" class="team-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-secondary mb-1">Hanif Thamrin</h3>
+                        <p class="text-primary font-semibold mb-4">Founder & CEO</p>
+                        <p class="text-gray-600 text-sm">
+                            15+ years in content and media (Trans TV, RCTI, BBC UK, Manchester City FC). Led Shopee Live 2019 project. Head of Social Commerce WPP 2021-2025.
+                        </p>
+                        <div class="flex mt-4 space-x-3">
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="team-card bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="overflow-hidden h-64">
+                        <img src="assets/edo.png" alt="Rizky Reynaldo" class="team-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-secondary mb-1">Rizky Reynaldo</h3>
+                        <p class="text-primary font-semibold mb-4">Partner</p>
+                        <p class="text-gray-600 text-sm">
+                            Focuses on creator payment automation and publisher partnerships. Expert in scaling payment systems for thousands of creators monthly.
+                        </p>
+                        <div class="flex mt-4 space-x-3">
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="team-card bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="overflow-hidden h-64">
+                        <img src="assets/ridho.png" alt="Ridho Tristian" class="team-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-secondary mb-1">Ridho Tristian</h3>
+                        <p class="text-primary font-semibold mb-4">Partner</p>
+                        <p class="text-gray-600 text-sm">
+                            Oversees client strategy, data, and analytics. Brings data-driven approach to content and commerce strategies for measurable results.
+                        </p>
+                        <div class="flex mt-4 space-x-3">
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="team-card bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="overflow-hidden h-64">
+                        <img src="assets/rendy.png" alt="Rendy Kailimang" class="team-img w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-secondary mb-1">Rendy Kailimang</h3>
+                        <p class="text-primary font-semibold mb-4">Partner</p>
+                        <p class="text-gray-600 text-sm">
+                            Oversees AI creator contracts and tax automation with legal background. Ensures compliance and efficiency in creator agreements.
+                        </p>
+                        <div class="flex mt-4 space-x-3">
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-20 bg-secondary text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Case Studies & Achievements</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl">
+                    <h3 class="text-2xl font-bold mb-4">Livestream Management for L'Oreal Group</h3>
+                    <p class="text-gray-300 mb-6">
+                        Managed over 87,000+ hours of livestream for L'Oreal Group, resulting in significant sales growth and brand engagement across multiple markets.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">+45% Engagement</span>
+                        <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">+32% Conversion</span>
+                        <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">87K Hours</span>
+                    </div>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl">
+                    <h3 class="text-2xl font-bold mb-4">Prestigious Awards 2024</h3>
+                    <p class="text-gray-300 mb-6">
+                        Recognized with two prestigious awards in 2024 for excellence in content-commerce innovation and creator community development.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Best Content-Commerce</span>
+                        <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Creator Community Award</span>
+                        <span class="bg-primary bg-opacity-20 text-secondary px-3 py-1 rounded-full text-sm">Industry Recognition</span>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="text-center mb-16">
+                    <h3 class="text-2xl font-bold mb-6">Our Esteemed Clients</h3>
+                    <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                    <img src="assets/unilever.png" alt="Unilever" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/loreal.png" alt="L'Oreal" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/kimberly.png" alt="Kimberly Clark" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/samsung.png" alt="Samsung" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/paragon.png" alt="paragon" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/nestle.png" alt="nestle" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/total.png" alt="totalenergies" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    <img src="assets/danone.png" alt="danone" class="h-28 grayscale contrast-0 brightness-0 invert opacity-70 hover:opacity-100 transition">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Our Work in Action</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+                <div class="video-container rounded-xl overflow-hidden shadow-xl">
+<iframe src="https://www.youtube.com/embed/XC8cieT5sOk?autoplay=1&mute=1&loop=1&playlist=XC8cieT5sOk&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&disablekb=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold text-secondary mb-4">Livestream Commerce Showcase</h3>
+                    <p class="text-gray-600 mb-6">
+                        Watch our team in action managing a high-performance livestream for one of our global clients. Our approach combines engaging content with strategic commerce integration for maximum impact.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-primary mb-2">87K+ Hours</h4>
+                            <p class="text-gray-600 text-sm">Livestream managed</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-primary mb-2">45% Higher</h4>
+                            <p class="text-gray-600 text-sm">Engagement rate</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-primary mb-2">32% Boost</h4>
+                            <p class="text-gray-600 text-sm">Conversion rate</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-primary mb-2">100+</h4>
+                            <p class="text-gray-600 text-sm">Satisfied clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="rounded-lg overflow-hidden h-40">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Content Creation" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="rounded-lg overflow-hidden h-40">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Livestream" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="rounded-lg overflow-hidden h-40">
+                    <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Team Work" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                </div>
+                <div class="rounded-lg overflow-hidden h-40">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Strategy" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">What Our Clients Say</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "Let's Go Inc transformed our livestream commerce strategy, delivering a 45% increase in engagement and 32% higher conversion rates. Their creator relationships are unmatched."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-secondary">Sarah Johnson</h4>
+                            <p class="text-gray-500 text-sm">Marketing Director, L'Oreal</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "The affiliate community they built for us generated 3x the sales we expected. Their automated payment system saved us countless hours of administrative work."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-secondary">Michael Chen</h4>
+                            <p class="text-gray-500 text-sm">E-commerce Lead, Unilever</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "Their data-driven approach to content IP development helped us break into new markets. The team's strategic thinking is as strong as their execution."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-secondary">Emma Rodriguez</h4>
+                            <p class="text-gray-500 text-sm">Brand Manager, Samsung</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 bg-primary">
+        <div class="container mx-auto px-6">
+            <div class="text-center text-white mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Content Commerce Strategy?</h2>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Let's discuss how we can help you achieve remarkable results through innovative creator-commerce solutions.
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-secondary text-white p-10">
+                        <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt mt-1 mr-4 text-primary"></i>
+                                <div>
+                                    <h4 class="font-bold">Address</h4>
+                                    <p class="text-gray-300">123 Innovation Drive, Jakarta, Indonesia</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-phone-alt mt-1 mr-4 text-primary"></i>
+                                <div>
+                                    <h4 class="font-bold">Phone</h4>
+                                    <p class="text-gray-300">+62 21 1234 5678</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-envelope mt-1 mr-4 text-primary"></i>
+                                <div>
+                                    <h4 class="font-bold">Email</h4>
+                                    <p class="text-gray-300">hello@letsgoinc.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-10">
+                            <h4 class="font-bold mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-white bg-opacity-20 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-30 transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-white bg-opacity-20 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-30 transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="bg-white bg-opacity-20 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-30 transition">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                <a href="#" class="bg-white bg-opacity-20 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-30 transition">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-1/2 p-10">
+                        <h3 class="text-2xl font-bold text-secondary mb-6">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 mb-2" for="name">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 mb-2" for="email">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 mb-2" for="phone">Phone</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 mb-2" for="message">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg font-semibold hover:bg-yellow-500 transition">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <h3 class="text-xl font-bold text-white mb-6">Join Our Affiliate Community</h3>
+                <a href="#" class="inline-block bg-white text-secondary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+                    Become a Creator Partner
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="text-primary">Let's</span> Go Inc
+                    </h3>
+                    <p class="text-gray-300 mb-4">
+                        Innovating Content - Creator - Commerce through dynamic solutions and strategic partnerships.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-primary transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-primary transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-primary transition">About Us</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-primary transition">Services</a></li>
+                        <li><a href="#team" class="text-gray-300 hover:text-primary transition">Our Team</a></li>
+                        <li><a href="#achievements" class="text-gray-300 hover:text-primary transition">Achievements</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Creator & Content IP</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Livestream & Short Video</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Affiliate Community</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Technology Solutions</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Payment Automation</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2 text-primary"></i>
+                            <span class="text-gray-300">123 Innovation Drive, Jakarta, Indonesia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-2 text-primary"></i>
+                            <span class="text-gray-300">+62 21 1234 5678</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-2 text-primary"></i>
+                            <span class="text-gray-300">hello@letsgoinc.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-300 mb-4 md:mb-0">
+                    &copy; 2024 Let's Go Inc. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-300 hover:text-primary transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-300 hover:text-primary transition">Terms of Service</a>
+                    <a href="#" class="text-gray-300 hover:text-primary transition">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-yellow-500 transition hidden">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
