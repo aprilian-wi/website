@@ -45,6 +45,12 @@ body {
     min-height: 600px;
 }
 
+@media (max-width: 768px) {
+    .video-background iframe {
+        display: none;
+    }
+}
+
 .video-background iframe {
     position: absolute;
     top: 50%;
